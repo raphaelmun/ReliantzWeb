@@ -1,0 +1,25 @@
+{
+  "name": "reliantzweb",
+  "version": "1.0.0",
+  "description": "Website for Reliantz",
+  "main": "app.js",
+  "dependencies": {
+    "connect": "^3.7.0",
+    "dotenv": "^8.0.0",
+    "serve-static": "^1.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raphaelmun/ReliantzWeb.git"
+  },
+  "author": "",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/raphaelmun/ReliantzWeb/issues"
+  },
+  "homepage": "https://github.com/raphaelmun/ReliantzWeb#readme"
+}
