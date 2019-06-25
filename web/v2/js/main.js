@@ -232,8 +232,19 @@
     fixedContentPos: false
   });
 
-
-
+    $("#colorlib-subscribe-form").submit(function(e) {
+    	e.preventDefault();
+    });
+  	$("#contact-name").keypress(function(e) {
+        // Enter pressed?
+        if( e.which === 10 || e.which === 13 ) {
+        	e.preventDefault();
+            window.location = "contact.html?name=" + $("#contact-name").val();
+        }
+    });
+    $("#contact-button").click(function(e) {
+    	window.location = "contact.html?name=" + $("#contact-name").val();
+    });
 
 })(jQuery);
 
