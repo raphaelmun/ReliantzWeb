@@ -7637,8 +7637,8 @@ h1, h2, h3, h4, h5,
 
 .colorlib-nav-toggle {
   position: fixed;
-  left: -12px;
-  top: 0px;
+  left: -5px;
+  top: -10px;
   z-index: 9999;
   cursor: pointer;
   opacity: 1;
@@ -7700,6 +7700,11 @@ h1, h2, h3, h4, h5,
     z-index: 1;
     font-size: 18px;
     font-weight: 500; }
+  @media (max-width: 991.98px) {
+    .hero-wrap .text {
+      z-index: 1;
+      font-size: 14px;
+      font-weight: 500; } }
     .hero-wrap .text .img {
       width: 200px;
       height: 200px;
@@ -7720,7 +7725,7 @@ h1, h2, h3, h4, h5,
         color: #000000; }
       @media (max-width: 991.98px) {
         .hero-wrap .text h1 {
-          font-size: 22px; } }
+          font-size: 20px; } }
     .hero-wrap .text .btn-custom {
       font-weight: 400;
       color: #b3b3b3;
