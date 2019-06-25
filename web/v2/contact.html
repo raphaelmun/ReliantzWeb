@@ -119,7 +119,9 @@
   <script>
   	$( document ).ready( function() {
 	  	var qs = new URLSearchParams( window.location.search );
-	  	$("#contact-form").attr( "src", "https://docs.google.com/forms/d/e/1FAIpQLScIPfV-O6pR0R-BcfcpwnmtPFxsAqA35Fg88UMJ32YDcout1g/viewform?embedded=true&usp=pp_url&entry.1662444077=" + qs.get("name") );
+	  	if( qs.has( "name" ) ) {
+	  		$("#contact-form").attr( "src", "https://docs.google.com/forms/d/e/1FAIpQLScIPfV-O6pR0R-BcfcpwnmtPFxsAqA35Fg88UMJ32YDcout1g/viewform?embedded=true&usp=pp_url&entry.1662444077=" + qs.get("name") );
+	  	}
   	});
   </script>
     
