@@ -7435,7 +7435,7 @@ h1, h2, h3, h4, h5,
     position: absolute;
     left: 100%;
     top: 30px;
-    width: 100%;
+    /*width: 100%;*/
     visibility: hidden;
     opacity: 0;
     font-size: 14px !important;
@@ -7450,7 +7450,7 @@ h1, h2, h3, h4, h5,
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease; }
   #colorlib-aside #colorlib-main-menu li:hover > div {
-    left: 60%;
+    left: 50%;
     visibility: visible;
     opacity: 1;
     -moz-transition: all 0.3s ease;
